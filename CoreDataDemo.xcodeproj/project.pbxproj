@@ -14,7 +14,6 @@
 		3A3A84252693751B00A81686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A84242693751B00A81686 /* Assets.xcassets */; };
 		3A3A84282693751B00A81686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A84262693751B00A81686 /* LaunchScreen.storyboard */; };
 		7AE54EBF2695E00600E137ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54EBE2695E00600E137ED /* Constants.swift */; };
-		7AE54EC32695E15C00E137ED /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54EC22695E15C00E137ED /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		3A3A84272693751B00A81686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A3A84292693751B00A81686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE54EBE2695E00600E137ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		7AE54EC22695E15C00E137ED /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,20 +62,11 @@
 				3A3A841A2693751A00A81686 /* SceneDelegate.swift */,
 				7AE54EC12695E04C00E137ED /* Supporting files */,
 				7AE54EC02695E01100E137ED /* ViewControllers */,
-				7AE54EBD2695DFBB00E137ED /* Managers */,
 				3A3A84262693751B00A81686 /* LaunchScreen.storyboard */,
 				3A3A84292693751B00A81686 /* Info.plist */,
 				3A3A84212693751A00A81686 /* CoreDataDemo.xcdatamodeld */,
 			);
 			path = CoreDataDemo;
-			sourceTree = "<group>";
-		};
-		7AE54EBD2695DFBB00E137ED /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				7AE54EC22695E15C00E137ED /* CoreDataManager.swift */,
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		7AE54EC02695E01100E137ED /* ViewControllers */ = {
@@ -166,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE54EC32695E15C00E137ED /* CoreDataManager.swift in Sources */,
 				7AE54EBF2695E00600E137ED /* Constants.swift in Sources */,
 				3A3A841D2693751A00A81686 /* TaskListViewController.swift in Sources */,
 				3A3A84232693751A00A81686 /* CoreDataDemo.xcdatamodeld in Sources */,
